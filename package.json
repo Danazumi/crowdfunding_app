@@ -1,0 +1,32 @@
+{
+  "name": "crowdfunding_product_page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.4",
+    "bootstrap": "^5.2.3",
+    "daisyui": "^2.31.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-react": "^7.18.6",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "vite": "^3.1.0",
+    "vite-plugin-babel": "^1.1.2"
+  }
+}
