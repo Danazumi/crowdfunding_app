@@ -15,6 +15,7 @@ export default function Test({
   const [valueThree, setValueThree] = useState("");
   const [valueFour, setValueFour] = useState("");
 
+  
   const handleClick = (inputType) => {
     setTotal((prevTotal) => prevTotal - inputType);
     setPercent((prevPercent) => prevPercent + 5);
